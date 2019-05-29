@@ -2,7 +2,7 @@
 Useful Serial Debug for Arduino 
 
 ### Install
-*Arduino IDE:*  
+**Arduino IDE:**  
 Put the debug.h in the same folder of the file abc.ino .  
 Include the library in the top of your code " #include <debug.h> " and define " #define DEBUG " to enable the library.  
 
@@ -22,7 +22,7 @@ void loop() {
 ```
 
 
-*PlatformIO*  
+**PlatformIO**  
 Put the folder on the "lib" folder on your project.  
 
 ---
