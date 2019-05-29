@@ -23,7 +23,7 @@ void loop() {
 
 
 **PlatformIO**  
-Put the folder on the "lib" folder on your project.  
+Put the entire folder "serialDebug" on the "lib" folder in your project.  
 
 ---
 DaveCalaway
