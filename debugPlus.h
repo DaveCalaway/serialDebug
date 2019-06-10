@@ -1,5 +1,5 @@
 /*
-Debug library.
+debugPlus library.
 */
 
 #ifdef DEBUG
