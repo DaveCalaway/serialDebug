@@ -3,8 +3,7 @@ Useful Serial Debug for Arduino
 
 ### Install
 **Arduino IDE:**  
-Put the debugPlus.h in the same folder of the file abc.ino .  
-Include the library in the top of your code " #include "debugPlus.h" " and define " #define DEBUG " to enable the library.  
+Put the debugPlus folder into your Arduino Library folder.   
 
 ```
 #include "debugPlus.h"
@@ -23,7 +22,7 @@ void loop() {
 
 
 **PlatformIO**  
-Put the entire folder "debugPlus" on the "lib" folder in your project.  
+Put the debugPlus folder into the "lib" folder in your project.  
 
 ---
 DaveCalaway
