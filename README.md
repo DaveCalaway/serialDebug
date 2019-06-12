@@ -6,9 +6,8 @@ Useful Serial Debug for Arduino
 Put the debugPlus folder into your Arduino Library folder.   
 
 ```
-#include "debugPlus.h"
-
 #define DEBUG // comment to disable
+#include "debugPlus.h"
 
 void setup() {
   DEBUG_BEGIN(9600);
