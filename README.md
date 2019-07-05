@@ -21,7 +21,13 @@ void loop() {
 
 
 **PlatformIO**  
-Put the debugPlus folder into the "lib" folder in your project.  
+You have 2 options:  
+1. Put the debugPlus folder into the "lib" folder in your project.  
+2. Add these lines in the platformio.ini file:  
+```    
+lib_deps =
+      https://github.com/DaveCalaway/serialDebug.git
+```
 
 ---
 DaveCalaway
